@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavbarComponent />
       <Container>
-        <a name="home"><h1>EVP-Project</h1></a>
+        <a name="home"><h1>EVP-Chess Project</h1></a>
 
         <a name='links'><h1>Links</h1></a>
         <Links />

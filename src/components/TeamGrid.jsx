@@ -1,5 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const TeamGrid = () => {
     const team = {
@@ -20,7 +23,7 @@ const TeamGrid = () => {
                 "links": [
                     {
                         "name": "GitHub",
-                        "url": ""
+                        "url": "https://github.com/isti98"
                     }
                 ]
             },
@@ -42,13 +45,20 @@ const TeamGrid = () => {
             <Container>
                 <Row>
                     {team.members.map((member) => (
-                        <Col>
-                            <Card style={{ width: '18rem' }}>
+                        <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
+                            <Card >
                                 <Card.Body>
-                                    <Card.Title>{member.name}</Card.Title>
-                                    <Card.Subtitle className="mb-2 text-muted">Email: {member.email}</Card.Subtitle>
+                                    <Card.Title style={{fontSize: '2rem'}}>{member.name}</Card.Title>
+                                    <Card.Subtitle style={{marginBottom: '0.3rem', fontSize: '1.1rem'}}>
+                                        <Card.Link 
+                                            className="mb-2 text-muted" 
+                                            style={{textDecoration: 'none'}}
+                                            href={"mailto:" + member.email}>
+                                            <FontAwesomeIcon icon={faEnvelope} style={{marginRight: "0.2rem"}} />: {member.email}
+                                        </Card.Link>
+                                    </Card.Subtitle>
                                     {member.links.map((link) => (
-                                        <Card.Link href={link.url}>{link.name}</Card.Link>
+                                        <Card.Link href={link.url} target="_blank" style={{textDecoration: 'none', fontSize: '1.1rem'}}>{link.name.includes("GitHub") ? (<FontAwesomeIcon icon={faGithub} style={{marginRight: "0.3rem"}} />) : ""}{link.name}</Card.Link>
                                     ))}
                                 </Card.Body>
                             </Card>
