@@ -13,7 +13,27 @@ const TeamGrid = () => {
                         "url": "https://github.com/Nemeth-Tamas"
                     }
                 ]
-            }
+            },
+            {
+                "name": "Riszterer István",
+                "email": "gwlxts@inf.elte.hu",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
+            {
+                "name": "Maár Dávid",
+                "email": "ssqod1@inf.elte.hu",
+                "links": [
+                    {
+                        "name": "GitHub",
+                        "url": ""
+                    }
+                ]
+            },
         ]
     }
 
