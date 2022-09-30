@@ -30,7 +30,7 @@ const TeamGrid = () => {
                 "links": [
                     {
                         "name": "GitHub",
-                        "url": ""
+                        "url": "https://github.com/Exclusivefrog28"
                     }
                 ]
             },
