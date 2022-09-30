@@ -21,7 +21,7 @@ const Links = () => {
                         <Card>
                         <Card.Body>
                             <Card.Title style={{fontSize: '2rem'}}>{link.name}</Card.Title>
-                            <Card.Link href={link.url} style={{textDecoration: 'none'}}>
+                            <Card.Link href={link.url} target="_blank" style={{textDecoration: 'none'}}>
                             {link.name.includes("GitHub") ? (<FontAwesomeIcon icon={faGithub} style={{marginRight: "0.3rem"}} />) : ""}{link.url}</Card.Link>
                         </Card.Body>
                         </Card>
