@@ -10,6 +10,14 @@ const Links = () => {
                 "name": "GitHub Website Project",
                 "url": "https://github.com/Nemeth-Tamas/evp-project-webpage"
             },
+            {
+                "name": "Specification",
+                "url": "wip"
+            },
+            {
+                "name": "Order document",
+                "url": "wip"
+            }
         ]
     }
 

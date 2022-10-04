@@ -11,6 +11,7 @@ function App() {
         defaultActiveKey="home"
         id="main-menu-tabs"
         className="mb-3"
+        justify
       >
         <Tab eventKey="home" title="Home">
           <Main />

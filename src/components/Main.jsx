@@ -9,7 +9,7 @@ const Main = () => {
 		<div>
 			{/* <NavbarComponent /> */}
 			<Container>
-				<a name="home"><h1>EVP-Chess Project</h1></a>
+				<a name="home"><h1>Welcome to the EVP-Chess Site</h1></a>
 
 				<a name='links'><h1>Links</h1></a>
 				<Links />
