@@ -26,7 +26,7 @@ const Links = () => {
             <Row className="justify-content-lg-center">
                 {links.links.map((link) => (
                     <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
-                        <Card className="bg-dark text-white border-white">
+                        <Card className="bg-dark text-white border-success">
                         <Card.Body>
                             <Card.Title style={{fontSize: '2rem'}}>{link.name}</Card.Title>
                             <Card.Link href={link.url} target="_blank" style={{textDecoration: 'none'}}>

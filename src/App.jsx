@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Main from './components/Main';
 import PresentationComp from './components/Presentation';
+// import Specification from './components/Specification';
 
 function App() {
   return (
@@ -13,12 +14,15 @@ function App() {
         className="mb-3 bg-dark text-white"
         justify
       >
-        <Tab eventKey="home" title="Home" className='bg-dark text-white mh-100' style={{backgroundColor: 'black'}}>
+        <Tab eventKey="home" title="Home" className='bg-dark text-white mh-100'>
           <Main />
         </Tab>
         <Tab eventKey="Presentation" title="Presentation" className='bg-dark text-white'>
           <PresentationComp />
         </Tab>
+        {/* <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
+          <Specification />
+        </Tab> */}
       </Tabs>
       {/* <NavbarComponent />
       <Container>
