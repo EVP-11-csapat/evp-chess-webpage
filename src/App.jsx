@@ -1,22 +1,22 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Main from './components/Main';
 import PresentationComp from './components/Presentation';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-dark mh-100 text-white">
       <Tabs
         defaultActiveKey="home"
         id="main-menu-tabs"
-        className="mb-3"
+        className="mb-3 bg-dark text-white"
         justify
       >
-        <Tab eventKey="home" title="Home">
+        <Tab eventKey="home" title="Home" className='bg-dark text-white mh-100' style={{backgroundColor: 'black'}}>
           <Main />
         </Tab>
-        <Tab eventKey="Presentation" title="Presentation">
+        <Tab eventKey="Presentation" title="Presentation" className='bg-dark text-white'>
           <PresentationComp />
         </Tab>
       </Tabs>

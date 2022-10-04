@@ -8,7 +8,7 @@ const Main = () => {
 	return (
 		<div>
 			{/* <NavbarComponent /> */}
-			<Container>
+			<Container className='bg-dark mh-100'>
 				<a name="home"><h1>Welcome to the EVP-Chess Site</h1></a>
 
 				<a name='links'><h1>Links</h1></a>

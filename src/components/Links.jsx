@@ -15,7 +15,7 @@ const Links = () => {
                 "url": "wip"
             },
             {
-                "name": "Order document",
+                "name": "Order transcript",
                 "url": "wip"
             }
         ]
@@ -26,7 +26,7 @@ const Links = () => {
             <Row className="justify-content-lg-center">
                 {links.links.map((link) => (
                     <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
-                        <Card>
+                        <Card className="bg-dark text-white border-white">
                         <Card.Body>
                             <Card.Title style={{fontSize: '2rem'}}>{link.name}</Card.Title>
                             <Card.Link href={link.url} target="_blank" style={{textDecoration: 'none'}}>

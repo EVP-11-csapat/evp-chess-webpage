@@ -46,7 +46,7 @@ const TeamGrid = () => {
                 <Row>
                     {team.members.map((member) => (
                         <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
-                            <Card>
+                            <Card className="bg-dark text-white border-white">
                                 <Card.Body>
                                     <Card.Title style={{fontSize: '2rem'}}>{member.name}</Card.Title>
                                     <Card.Subtitle style={{marginBottom: '0.3rem', fontSize: '1.1rem'}}>
