@@ -12,7 +12,7 @@ const Links = () => {
             },
             {
                 "name": "Specification",
-                "url": "wip"
+                "url": "https://docs.google.com/document/d/1hhPtlxlWX3BH0UcJKkP7mdBpkwVSKundNC_xitEhstQ/edit?usp=sharing"
             },
             {
                 "name": "Order transcript",
