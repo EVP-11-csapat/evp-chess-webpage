@@ -1,14 +1,25 @@
 import './App.css';
-import NavbarComponent from './components/Navbar';
 import React from 'react';
-import TeamGrid from './components/TeamGrid';
-import Links from './components/Links';
-import { Container } from 'react-bootstrap';
+import { Tab, Tabs } from 'react-bootstrap';
+import Main from './components/Main';
+import PresentationComp from './components/Presentation';
 
 function App() {
   return (
     <div className="App">
-      <NavbarComponent />
+      <Tabs
+        defaultActiveKey="home"
+        id="main-menu-tabs"
+        className="mb-3"
+      >
+        <Tab eventKey="home" title="Home">
+          <Main />
+        </Tab>
+        <Tab eventKey="Presentation" title="Presentation">
+          <PresentationComp />
+        </Tab>
+      </Tabs>
+      {/* <NavbarComponent />
       <Container>
         <a name="home"><h1>EVP-Chess Project</h1></a>
 
@@ -17,7 +28,7 @@ function App() {
 
         <a name='team'><h1>Team</h1></a>
         <TeamGrid />
-      </Container>
+      </Container> */}
     </div>
   );
 }
