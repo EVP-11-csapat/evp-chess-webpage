@@ -9,12 +9,12 @@ const Main = () => {
 		<div>
 			{/* <NavbarComponent /> */}
 			<Container className='bg-dark mh-100'>
-				<a name="home"><h1>Welcome to the EVP-Chess Site</h1></a>
+				<a name="home"><h1 className='text-danger'>Welcome to the Chess 1.5 Site</h1></a>
 
-				<a name='links'><h1>Links</h1></a>
+				<a name='links'><h1 className='text-danger'>Links</h1></a>
 				<Links />
 
-				<a name='team'><h1>Team</h1></a>
+				<a name='team'><h1 className='text-danger'>Team</h1></a>
 				<TeamGrid />
 			</Container>
 		</div>
