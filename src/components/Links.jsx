@@ -16,7 +16,7 @@ const Links = () => {
             },
             {
                 "name": "Order transcript",
-                "url": "wip"
+                "url": "https://docs.google.com/document/d/1A0IQruTmMvtqq3XX_-hnD3soiD1MWmDaFwZddjBgKvY/edit?usp=sharing"
             }
         ]
     }
