@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Main from './components/Main';
 import PresentationComp from './components/Presentation';
-// import Specification from './components/Specification';
+import Specification from './components/Specification';
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
         <Tab eventKey="Presentation" title="Presentation">
           <PresentationComp />
         </Tab>
-        {/* <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
+        <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
           <Specification />
-        </Tab> */}
+        </Tab>
       </Tabs>
       {/* <NavbarComponent />
       <Container>
