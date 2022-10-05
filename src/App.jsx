@@ -7,17 +7,17 @@ import PresentationComp from './components/Presentation';
 
 function App() {
   return (
-    <div className="App bg-dark mh-100 text-white">
+    <div className="App bg-dark mh-100 ">
       <Tabs
         defaultActiveKey="home"
         id="main-menu-tabs"
-        className="mb-3 bg-dark text-white"
+        className="mb-3"
         justify
       >
-        <Tab eventKey="home" title="Home" className='bg-dark text-white mh-100'>
+        <Tab eventKey="home" title="Home">
           <Main />
         </Tab>
-        <Tab eventKey="Presentation" title="Presentation" className='bg-dark text-white'>
+        <Tab eventKey="Presentation" title="Presentation">
           <PresentationComp />
         </Tab>
         {/* <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
