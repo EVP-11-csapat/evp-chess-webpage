@@ -8,14 +8,17 @@ const Links = () => {
         "links": [
             {
                 "name": "GitHub Website Project",
+                "text": "Click To Open The GitHub Website Project",
                 "url": "https://github.com/Nemeth-Tamas/evp-project-webpage"
             },
             {
                 "name": "Specification",
+                "text": "Click To Open The Specification Document",
                 "url": "https://docs.google.com/document/d/1hhPtlxlWX3BH0UcJKkP7mdBpkwVSKundNC_xitEhstQ/edit?usp=sharing"
             },
             {
-                "name": "Order transcript",
+                "name": "Order protocol",
+                "text": "Click To Open The Order Protocol",
                 "url": "https://docs.google.com/document/d/1A0IQruTmMvtqq3XX_-hnD3soiD1MWmDaFwZddjBgKvY/edit?usp=sharing"
             }
         ]
@@ -30,7 +33,7 @@ const Links = () => {
                         <Card.Body>
                             <Card.Title style={{fontSize: '2rem'}}>{link.name}</Card.Title>
                             <Card.Link href={link.url} target="_blank" className="text-primary" style={{textDecoration: 'none'}}>
-                            {link.name.includes("GitHub") ? (<FontAwesomeIcon icon={faGithub} style={{marginRight: "0.3rem"}} />) : ""}{link.url}</Card.Link>
+                            {link.name.includes("GitHub") ? (<FontAwesomeIcon icon={faGithub} style={{marginRight: "0.3rem"}} />) : ""}{link.text}</Card.Link>
                         </Card.Body>
                         </Card>
                     </Col>
