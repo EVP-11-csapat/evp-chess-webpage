@@ -1,6 +1,6 @@
 # Chess 1.5 Project Website
 
-## [Website Link](https://evp-website.netlify.app/)
+## [Website Link](https://evp-chess1-5.netlify.app/)
 
 ## Build instructions
 - Clone the repository 
