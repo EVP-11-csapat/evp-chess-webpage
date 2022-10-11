@@ -11,7 +11,8 @@ const Main = () => {
 			<Container className='bg-dark mh-100'>
 				<a name="home"><h1 className='text-danger'>Welcome to the Chess 1.5 Site</h1></a>
 				<p className='text-danger mb-4'>
-					<i>,,Több mint a klasszikus sakk, de nem annyira, hogy 2.0 legyen.''</i> - 11. csapat
+					{/* <i>,,Több mint a klasszikus sakk, de nem annyira, hogy 2.0 legyen.''</i> - 11. csapat */}
+					<i>,,More than classical chess, but not enough to be 2.0.''</i> - 11. csapat
 				</p>
 
 
