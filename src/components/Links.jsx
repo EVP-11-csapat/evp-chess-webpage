@@ -10,7 +10,7 @@ const Links = () => {
                 "id": "1",
                 "name": "GitHub Website Project",
                 "text": "Click To Open The GitHub Website Project",
-                "url": "https://github.com/Nemeth-Tamas/evp-project-webpage"
+                "url": "https://github.com/EVP-11-csapat/evp-chess-webpage"
             },
             {
                 "id": "2",
@@ -28,7 +28,7 @@ const Links = () => {
                 "id": "4",
                 "name": "GitHub Chess 1.5 Project",
                 "text": "Click To Open The GitHub Chess 1.5 Project",
-                "url": "https://github.com/Nemeth-Tamas/evp-chess-1-5"
+                "url": "https://github.com/EVP-11-csapat/evp-chess-1-5"
             }
         ]
     }
