@@ -29,6 +29,12 @@ const Links = () => {
                 "name": "GitHub Chess 1.5 Project",
                 "text": "Click To Open The GitHub Chess 1.5 Project",
                 "url": "https://github.com/EVP-11-csapat/evp-chess-1-5"
+            },
+            {
+                "id": "5",
+                "name": "Gantt Diagram Tools",
+                "text": "Click To Open The Gantt Diagram Tools Slide",
+                "url": "https://github.com/EVP-11-csapat/evp-chess-1-5"
             }
         ]
     }
