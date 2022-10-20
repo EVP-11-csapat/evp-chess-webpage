@@ -4,6 +4,7 @@ import { Tab, Tabs } from 'react-bootstrap';
 import Main from './components/Main';
 import PresentationComp from './components/Presentation';
 import Specification from './components/Specification';
+import Gantt from './components/Gantt';
 
 function App() {
   return (
@@ -20,20 +21,13 @@ function App() {
         <Tab eventKey="Presentation" title="Presentation">
           <PresentationComp />
         </Tab>
-        <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
+        {/* <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
           <Specification />
+        </Tab> */}
+        <Tab eventKey="Gantt" title="Gantt">
+          <Gantt />
         </Tab>
       </Tabs>
-      {/* <NavbarComponent />
-      <Container>
-        <a name="home"><h1>EVP-Chess Project</h1></a>
-
-        <a name='links'><h1>Links</h1></a>
-        <Links />
-
-        <a name='team'><h1>Team</h1></a>
-        <TeamGrid />
-      </Container> */}
     </div>
   );
 }
