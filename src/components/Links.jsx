@@ -34,7 +34,7 @@ const Links = () => {
                 "id": "5",
                 "name": "Gantt Diagram Tools",
                 "text": "Click To Open The Gantt Diagram Tools Slide",
-                "url": "https://github.com/EVP-11-csapat/evp-chess-1-5"
+                "url": "https://docs.google.com/presentation/d/1ZiOPaXLIyatmTfw7uy650TiD6i4KOPZc4kY1OxJTI5A/edit?usp=sharing"
             }
         ]
     }
