@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Main from './components/Main';
 import PresentationComp from './components/Presentation';
-import Specification from './components/Specification';
+import UMLDiagrams from './components/UMLDiagrams';
 import Gantt from './components/Gantt';
 
 function App() {
@@ -18,12 +18,12 @@ function App() {
         <Tab eventKey="home" title="Home">
           <Main />
         </Tab>
-        <Tab eventKey="Presentation" title="Presentation">
+        {/* <Tab eventKey="Presentation" title="Presentation">
           <PresentationComp />
-        </Tab>
-        {/* <Tab eventKey="Specification" title="Specification" className='bg-dark-text-white'>
-          <Specification />
         </Tab> */}
+        <Tab eventKey="UML Diagrams" title="UML Diagrams" className='bg-dark-text-white'>
+          <UMLDiagrams />
+        </Tab>
         <Tab eventKey="Gantt" title="Gantt">
           <Gantt />
         </Tab>

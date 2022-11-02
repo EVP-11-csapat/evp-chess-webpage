@@ -4,7 +4,7 @@ import { Container, Image } from 'react-bootstrap'
 const Gantt = () => {
   return (
     <Container>
-      <Image src='https://i.imgur.com/rH7QTNx.png' fluid />
+      <Image src='https://i.imgur.com/LcKayAO.png' fluid />
     </Container>
   )
 }

@@ -35,6 +35,12 @@ const Links = () => {
                 "name": "Gantt Diagram Tools",
                 "text": "Click To Open The Gantt Diagram Tools Slide",
                 "url": "https://docs.google.com/presentation/d/1ZiOPaXLIyatmTfw7uy650TiD6i4KOPZc4kY1OxJTI5A/edit?usp=sharing"
+            },
+            {
+                "id": "6",
+                "name": "UML Diagrams",
+                "text": "Click To Open The UML Diagrams Document",
+                "url": "https://docs.google.com/document/d/1ZSLT1FOQTE8Q6UPe2pt-2CTCbAsM6RYlcqUP-r-_84Y/edit?usp=sharing"
             }
         ]
     }
