@@ -7,7 +7,7 @@
 
 - Run `npm install` to install dependencies
 
-- Run `npm run dev` to start the development server
+- Run `npm run start` to start the development server
 
 - Run `npm run build` to build the website for production
 

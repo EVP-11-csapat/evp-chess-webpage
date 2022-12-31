@@ -41,6 +41,30 @@ const Links = () => {
                 "name": "UML Diagrams",
                 "text": "Click To Open The UML Diagrams Document",
                 "url": "https://docs.google.com/document/d/1ZSLT1FOQTE8Q6UPe2pt-2CTCbAsM6RYlcqUP-r-_84Y/edit?usp=sharing"
+            },
+            {
+                "id": "7",
+                "name": "Github Chess 1.5 JavaDoc",
+                "text": "Click To Open The GitHub Chess 1.5 JavaDoc",
+                "url": "https://github.com/EVP-11-csapat/evp-chess-1-5-javadoc"
+            },
+            {
+                "id": "8",
+                "name": "Chess 1.5 JavaDoc",
+                "text": "Click To Open Chess 1.5 JavaDoc Webpage",
+                "url": "https://evp-chess1-5-javadoc.netlify.app/index.html"
+            },
+            {
+                "id": "9",
+                "name": "Dev Documentation",
+                "text": "Click To Open The Developer Documentation",
+                "url": "https://evp-chess1-5-javadoc.netlify.app/index.html"
+            },
+            {
+                "id": "10",
+                "name": "User Documentation",
+                "text": "Click To Open The User Documentation",
+                "url": "https://evp-chess1-5-javadoc.netlify.app/index.html"
             }
         ]
     }
@@ -64,6 +88,34 @@ const Links = () => {
             <Row className="justify-content-lg-center">
                 {links.links.map((link) => 
                     {if (link.id > 3 && link.id <= 6) return (
+                    <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
+                        <Card className="bg-dark text-danger border-success">
+                        <Card.Body>
+                            <Card.Title style={{fontSize: '2rem'}}>{link.name}</Card.Title>
+                            <Card.Link href={link.url} target="_blank" className="text-primary" style={{textDecoration: 'none'}}>
+                            {link.name.includes("GitHub") ? (<FontAwesomeIcon icon={faGithub} style={{marginRight: "0.3rem"}} />) : ""}{link.text}</Card.Link>
+                        </Card.Body>
+                        </Card>
+                    </Col>
+                )})}
+            </Row>
+            <Row className="justify-content-lg-center">
+                {links.links.map((link) => 
+                    {if (link.id > 6 && link.id <= 9) return (
+                    <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
+                        <Card className="bg-dark text-danger border-success">
+                        <Card.Body>
+                            <Card.Title style={{fontSize: '2rem'}}>{link.name}</Card.Title>
+                            <Card.Link href={link.url} target="_blank" className="text-primary" style={{textDecoration: 'none'}}>
+                            {link.name.includes("GitHub") ? (<FontAwesomeIcon icon={faGithub} style={{marginRight: "0.3rem"}} />) : ""}{link.text}</Card.Link>
+                        </Card.Body>
+                        </Card>
+                    </Col>
+                )})}
+            </Row>
+            <Row className="justify-content-lg-center">
+                {links.links.map((link) => 
+                    {if (link.id > 9 && link.id <= 12) return (
                     <Col lg={4} md={12} style={{marginBottom: '0.5rem'}}>
                         <Card className="bg-dark text-danger border-success">
                         <Card.Body>

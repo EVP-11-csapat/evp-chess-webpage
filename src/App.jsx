@@ -2,8 +2,8 @@ import './App.css';
 import React, { useEffect } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Main from './components/Main';
-import PresentationComp from './components/Presentation';
-import UMLDiagrams from './components/UMLDiagrams';
+import DeveloperDocs from './components/DeveloperDocs';
+import UserDocs from './components/UserDocs';
 import Gantt from './components/Gantt';
 
 function App() {
@@ -21,8 +21,14 @@ function App() {
         {/* <Tab eventKey="Presentation" title="Presentation">
           <PresentationComp />
         </Tab> */}
-        <Tab eventKey="UML Diagrams" title="UML Diagrams" className='bg-dark-text-white'>
+        {/* <Tab eventKey="UML Diagrams" title="UML Diagrams" className='bg-dark-text-white'>
           <UMLDiagrams />
+        </Tab> */}
+        <Tab eventKey="Developer Documentation" title="Developer Documentation">
+          <DeveloperDocs />
+        </Tab>
+        <Tab eventKey="User Documentation" title="User Documentation">
+          <UserDocs />
         </Tab>
         <Tab eventKey="Gantt" title="Gantt">
           <Gantt />
