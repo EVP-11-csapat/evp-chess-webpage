@@ -58,7 +58,7 @@ const Links = () => {
                 "id": "9",
                 "name": "Dev Documentation",
                 "text": "Click To Open The Developer Documentation",
-                "url": "https://evp-chess1-5-javadoc.netlify.app/index.html"
+                "url": "https://docs.google.com/document/d/1Fq37YmxeVukIKZIdsj6iZi0XDiUwmj3QGMdoin-v3vQ/edit?usp=sharing"
             },
             {
                 "id": "10",

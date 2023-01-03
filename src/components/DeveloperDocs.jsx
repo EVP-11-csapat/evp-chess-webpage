@@ -4,7 +4,7 @@ import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout'
 import React, { useEffect, useState } from 'react'
 import { Worker } from '@react-pdf-viewer/core';
 import { Viewer } from '@react-pdf-viewer/core';
-import PDF from "./umldiagrams.pdf";
+import PDF from "./devdocs.pdf";
 import { Container, ProgressBar } from 'react-bootstrap';
 import { fullScreenPlugin } from '@react-pdf-viewer/full-screen';
 import { ExitFullScreenIcon, FullScreenIcon } from '@react-pdf-viewer/full-screen';
